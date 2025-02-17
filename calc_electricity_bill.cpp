@@ -1,20 +1,20 @@
-#include<iostream>
-using namespace std;
-int main()
-{
+
 #include<iostream>
 #include<cmath>
 using namespace std;
+//main function
 int main() 
 	{
-
+                //variable declaration
 		int unitconsume;
 		int bill;
 		int totalbill;
 		float tax;
 		float netbill;
+		//taking input
 		cout << " Enter the units : ";
 		cin >> unitconsume;
+		//checking input acc to the conditions and displaying bill in each condition
 		if (unitconsume <= 100) 
 		{
 			bill = unitconsume * 5;
