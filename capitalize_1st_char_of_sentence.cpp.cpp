@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     string arr;
-    cout << "Please enter a line:\n";
+    cout << "Please enter a line:\n";       //taking input from user
     getline(cin, arr);
 //check or flag
     bool found = true;
@@ -21,7 +21,7 @@ int main()
             found = true;
         }
     }
-
+//printing
     cout << "Capital string:\n" << arr << endl;
     system("pause");
     return 0;
