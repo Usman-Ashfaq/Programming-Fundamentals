@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+//main function
 int main()
 {
     string arr;
     cout << "Please enter a line:\n";
     getline(cin, arr);
-
+//check or flag
     bool found = true;
     for (int i = 0; i != arr.length(); i++)
     {
